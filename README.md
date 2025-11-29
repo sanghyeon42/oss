@@ -4,6 +4,8 @@
 
 20213073 송상현
 
+---
+
 ## 1. ps (Process Status)
 
 `ps` 명령어는 현재 실행 중인 프로세스의 상태를 **스냅샷(Snapshot)** 처럼 정적으로 보여줍니다.
@@ -21,7 +23,7 @@
 터미널에서 `ps -ef`를 입력했을 때의 모습입니다.
 
 
-
+---
 
 ## 2. top (Table of Processes)
 
@@ -37,7 +39,7 @@
 * **`M`**: 메모리(Memory) 사용량 순으로 정렬
 * **`P`**: CPU(Processor) 사용량 순으로 정렬 (기본값)
 
-
+---
 
 ## 3. jobs (Job Control)
 
@@ -55,8 +57,7 @@
 * **`fg` (Foreground)**: 백그라운드 작업을 화면 앞으로 가져옴 (`fg %작업번호`)
 * **`bg` (Background)**: 일시 정지된(Stopped) 작업을 백그라운드에서 다시 실행 (`bg %작업번호`)
 
-
-
+---
 
 ## 4. kill (Terminate Process)
 
